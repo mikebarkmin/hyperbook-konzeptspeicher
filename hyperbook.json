@@ -1,12 +1,12 @@
 {
-  "name": "Hyperbook GitHub Pages",
+  "name": "Konzeptspeicher",
   "version": "0.0.1",
-  "description": "This is an example for deploying Hyperbook on GitHub pages",
+  "description": "Dies ist ein Konzeptspeicher zu Begriffen der Informatik",
   "author": {
     "name": "Mike Barkmin",
     "url": "https://barkmin.eu"
   },
   "license": "CC-BY-SA",
-  "language": "en",
-  "basePath": "/hyperbook-github-pages"
+  "language": "de",
+  "basePath": "/hyperbook-konzeptspeicher"
 }
