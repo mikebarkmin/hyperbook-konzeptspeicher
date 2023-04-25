@@ -1,9 +1,12 @@
 ---
-name: Getting Started
+name: Willkommen
+lang: de
 ---
 
-## Getting Started
+# Willkommen
 
-This is created with :t[hyperbook].
+Willkommen im Konzeptspeicher der Informatik. In diesem Hyperbook werdet ihr viele relevante Konzepte der Informatik in der Oberstufe in Nordrhein-Westfalen finden.
 
-![Actual test image of jelly beans from the USC-SIPI image database.](/images/SIPI_Jelly_Beans_4.1.07.jpg)
+Gerne könnte ihr auch auf GitHub daran mitarbeiten den Konzeptspeicher zu erweitern. Dazu könnt ihr den folgenden Link verwenden oder 
+
+Repository: https://github.com/mikebarkmin/hyperbook-konzeptspeicher

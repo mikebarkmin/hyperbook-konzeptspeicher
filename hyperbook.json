@@ -6,6 +6,11 @@
     "name": "Mike Barkmin",
     "url": "https://barkmin.eu"
   },
+  "logo": "/logo.png",
+  "colors": {
+    "brand": "#44bdf5",
+    "brandText": "#00293a"
+  },
   "license": "CC-BY-SA",
   "language": "de",
   "basePath": "/hyperbook-konzeptspeicher"
