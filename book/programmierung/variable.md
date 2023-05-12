@@ -18,7 +18,7 @@ Die hier deklarierte Variable trägt den Bezeichner a und hat den Datentyp int.
 
 Schauen wir uns ein erstes Beispiel an, welches nur Variablen vom Typ Integer verwendet.
 
-:::onlineide
+:::onlineide{url="https://nrw.onlineide.openpatch.org"}
 
 ```java Variablen1.java
 
@@ -32,7 +32,7 @@ System.out.println("3" + a);
 
 :::
 
-**Aufgabe**: Überlege dir wie die Ausgabe aussieht, wenn diese Quelltextfragment ausgeführt werden würde.
+**Aufgabe**:  Überlege dir wie die Ausgabe aussieht, wenn diese Quelltextfragment ausgeführt werden würde.
 
 :::collapsible{title="Lösung" id="703561"}
 
@@ -60,7 +60,7 @@ Eine Wertzuweisung (z.B. `a = 5`) bewirkt, dass der alte Wert weggewischt und de
 
 Mit diesem Wissen versuche die nächste Aufgabe zu lösen:
 
-:::onlineide
+:::onlineide{url="https://nrw.onlineide.openpatch.org"}
 
 ```java Variablen2.java
 
@@ -84,7 +84,7 @@ System.out.println(a);
 
 Für die Wertzuweisung werden meistens Abkürzungen verwendet. Diese kannst du im nächsten Beispiel ausprobieren:
 
-:::onlineide
+:::onlineide{url="https://nrw.onlineide.openpatch.org"}
 
 ```java Variablen3.java
 int a;
@@ -186,7 +186,7 @@ w = max(\frac{r}{255}, \frac{g}{255}, \frac{b}{255})
 
 $$
 
-:::onlineide
+:::onlineide{url="https://nrw.onlineide.openpatch.org"}
 
 ```java RGBzuCMYK.java
 
