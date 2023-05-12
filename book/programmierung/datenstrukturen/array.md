@@ -105,6 +105,47 @@ println("Der größte Wert ist: " + maximum, Color.lightseagreen);
 
 :::
 
+### Aufgabe
+
+Manchmal soll auch überprüft werden, ob ein spezielles Element in einem Array vorhanden ist.
+
+1. Implementiere die Methode `istVorhanden`, die überprüfen soll, ob ein Element im Array vorhanden ist. Wenn das Element nicht vorhanden ist, soll false zurückgegeben werden, wenn es vorhanden ist true.
+
+:::onlineide
+
+```java Finden.java
+// TESTEN
+Namensliste meineListe = new Namensliste();
+System.out.println(meineListe.istVorhanden("Karl") + " (sollte true sein)");
+System.out.println(meineListe.istVorhanden("Karlo") + " (sollte false sein)");
+// TESTEN
+
+public class Namensliste {
+
+    private String[] namen;
+
+    public Namensliste() {
+        this.namen = new String[6];
+        this.namen[0] = "Hans";
+        this.namen[1] = "Karl";
+        this.namen[2] = "Susi";
+        this.namen[3] = "Karla";
+        this.namen[4] = "Paul";
+        this.namen[5] = "Xenia";
+    }
+
+    public boolean istVorhanden(String pName) {
+        return false;
+    }
+}
+
+```
+
+:::
+
+
+
+
 ## Sortieren
 
 Wenn ein Array nach einem bestimmten Wert sortiert werden soll, dann brauchen wir dazu einen Sortieralgorithmus.
