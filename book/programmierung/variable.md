@@ -65,7 +65,7 @@ Mit diesem Wissen versuche die nächste Aufgabe zu lösen:
 ```java Variablen2.java
 
 int a;
-a = 37
+a = 37;
 a = a + 1;
 
 System.out.println(a);
@@ -88,7 +88,7 @@ Für die Wertzuweisung werden meistens Abkürzungen verwendet. Diese kannst du i
 
 ```java Variablen3.java
 int a;
-int a = 12;
+a = 12;
 
 a += 7;
 System.out.println(a);
@@ -132,7 +132,7 @@ Schreibe ein Programm, das die bei den Testfällen stehenden Rechnenaufgaben ber
 - 9 * (2 + 1) = 27
 - 1234 / 10 = 123
 - 4 * 3 / 6 = 2
-- 123 / 10 = 12 
+- 123 / 10 = 12
 - (3 - 7) * (7 + 4) = -44
 - 12 / 10 = 1
 - 3 / 4 = 0
@@ -140,7 +140,7 @@ Schreibe ein Programm, das die bei den Testfällen stehenden Rechnenaufgaben ber
 - 3.0 / 4.0 = 0.75
 - 4 / 3 + 1 * 7 = 8
 - 1234 % 10 = 4
-- 4.0 / 3.0 + 1 * 7 = 8.333333 
+- 4.0 / 3.0 + 1 * 7 = 8.333333
 - 2 * 2 * 2 * 2 * 2 * 2 * 2 = 128
 - 42 / 7 / 3 = 2
 
@@ -156,21 +156,21 @@ Der RGB-Farbwert wird für Displays und der CMYK-Farbwert für den Druck verwend
 
 Hier die Formeln zur Umrechnung. Die CMYK-Werte liegen zwischen 0 und 1. Die RGB-Werte zwischen 0 und 255.
 
-$$ 
+$$
 
-C = \frac{w - \frac{r}{255}}{w} 
+C = \frac{w - \frac{r}{255}}{w}
 
 $$
 
 $$
 
-M = \frac{w - \frac{g}{255}}{w} 
+M = \frac{w - \frac{g}{255}}{w}
 
 $$
 
 $$
 
-Y = \frac{w - \frac{b}{255}}{w} 
+Y = \frac{w - \frac{b}{255}}{w}
 
 $$
 
@@ -201,4 +201,3 @@ w = Math.max(w,b);
 
 - R = 75, G = 0, B = 130
 - C = 0.42307693, M = 1, Y = 0, K = 0.49019605
-
